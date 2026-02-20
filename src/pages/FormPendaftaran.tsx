@@ -1,6 +1,6 @@
 // File: src/pages/FormPendaftaran.tsx
 import React, { useState } from 'react';
-import { CheckCircle, Loader2, FileText, Send, User, ShieldCheck } from 'lucide-react';
+import { CheckCircle, Loader2, Send, User, ShieldCheck } from 'lucide-react';
 import { uploadToCloudinary } from '../utils/cloudinary';
 import { db } from '../firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
